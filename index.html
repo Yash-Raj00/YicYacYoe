@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yic Yac Yoe</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="utils.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="madimi-one-regular">
+    <section
+      class="container text-center flex flex-col items-center gap-2 justify-center"
+    >
+      <div class="btnArea flex flex-col">
+        <button class="btn madimi-one-regular"><h1 id="result">Lets Play!</h1></button>
+      <span id="press">👆 to restart</span>
+      </div>
+      <div class="game">
+        <div class="row flex" id="row0">
+          <div class="box right bottom" id="box0"></div>
+          <div class="box right bottom left" id="box1"></div>
+          <div class="box left bottom" id="box2"></div>
+        </div>
+        <div class="row flex" id="row1">
+          <div class="box top right bottom" id="box3"></div>
+          <div class="box top right bottom left" id="box4"></div>
+          <div class="box top bottom left" id="box5"></div>
+        </div>
+        <div class="row flex" id="row2">
+          <div class="box top right" id="box6"></div>
+          <div class="box top right left" id="box7"></div>
+          <div class="box top left" id="box8"></div>
+        </div>
+      </div>
+      <div class="scoreBoard flex justify-around">
+        <div class="stats flex flex-col justify-around items-center">
+          <span class="player">Player - X</span>
+          <span class="score" id="X">0</span>
+        </div>
+        <div class="stats flex flex-col justify-around items-center">
+          <span class="player">Tie</span>
+          <span class="score" id="tie">0</span>
+        </div>
+        <div class="stats flex flex-col justify-around items-center">
+          <span class="player">Player - O</span>
+          <span class="score" id="O">0</span>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,179 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.roboto-light-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  /* font-weight: 400; */
+}
+.oswald {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+.nunito {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight:; */
+  font-style: normal;
+}
+.source-code-pro {
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  /* font-weight: 200; */
+  font-style: normal;
+}
+.museomoderno {
+  font-family: "MuseoModerno", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: ; */
+  font-style: normal;
+}
+.madimi-one-regular {
+  font-family: "Madimi One", sans-serif;
+  /* font-weight: 400; */
+  font-style: normal;
+}
+
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.justify-center {
+  justify-content: center;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+.gap-2 {
+  gap: 2rem;
+}
+
+.bg-wineRed {
+  background-color: rgb(255, 65, 65);
+}
+.bg-lightRed {
+  background-color: rgb(255, 154, 154);
+}
+.bg-orange {
+  background-color: rgb(255, 199, 95);
+  /* background-color: rgb(170, 255, 95); */
+}
+.bg-lightBlue {
+  background-color: #d4e9ff;
+}
+.bg-lightGray {
+  background-color: #dce2ea;
+}
+
+.text-white {
+  color: white;
+}
+
+.border-medium {
+  border: 3px solid;
+}
+
+.border-thin-lightGray {
+  border: 1px solid lightgray;
+}
+
+.border-lightGray {
+  border-color: lightgray;
+}
+
+.rotate-90 {
+  transform: rotate(90deg);
+}
+
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+.fixed {
+  position: fixed;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.pd-x-10 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.pd-x-20 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.pd-x-30 {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.pd-x-50 {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.pd-x-100 {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.pd-x-150 {
+  padding-left: 150px;
+  padding-right: 150px;
+}
+.m-auto {
+  margin: auto;
+}
+.mg-x-10 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.mg-x-20 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
